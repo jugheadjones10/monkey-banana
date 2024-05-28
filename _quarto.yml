@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "monkey-banana-project-quarto"
+  title: "The Monkey Banana Project"
   navbar:
     right:
       - about.qmd
@@ -14,6 +15,3 @@ format:
   html:
     theme: cosmo
     css: styles.css
-
-
-

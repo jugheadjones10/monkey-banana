@@ -10,5 +10,35 @@
   },
   "about.qmd": {
     "about.html": "de7242cc"
+  },
+  "posts/problem-context/index.ipynb": {
+    "index.html": "8fdefead"
+  },
+  "posts/ideas/index.ipynb": {
+    "index.html": "bed8e684"
+  },
+  "posts/a-classical-planning-approach/index.ipynb": {
+    "index.html": "2a055cf8"
+  },
+  "posts/the-pigeon-banana-problem/index.ipynb": {
+    "index.html": "cccfc487"
+  },
+  "posts/monkey-banana-mdp/monkey-banana-mdp.ipynb": {
+    "monkey-banana-mdp.html": "34bf11e4"
+  },
+  "posts/building-machines-that-learn-and-think-like-people.qmd": {
+    "building-machines-that-learn-and-think-like-people.html": "ec9d53bb"
+  },
+  "posts/monkey-banana-mdp/monkey-banana-dp.ipynb": {
+    "monkey-banana-dp.html": "d5ac80ac"
+  },
+  "posts/monkey-banana-mdp/monkey-banana-dp-code.ipynb": {
+    "monkey-banana-dp-code.html": "f428ae96"
+  },
+  "posts/monkey-banana-mdp/monkey-banana-mc.ipynb": {
+    "monkey-banana-mc.html": "fed607a3"
+  },
+  "posts/monkey-banana-mdp/monkey-banana-mc-code.ipynb": {
+    "monkey-banana-mc-code.html": "8c0900ff"
   }
 }

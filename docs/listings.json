@@ -2,7 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
+      "/posts/monkey-banana-mdp/monkey-banana-mc.html",
+      "/posts/monkey-banana-mdp/monkey-banana-mc-code.html",
+      "/posts/monkey-banana-mdp/monkey-banana-dp-code.html",
+      "/posts/monkey-banana-mdp/monkey-banana-dp.html",
+      "/posts/building-machines-that-learn-and-think-like-people.html",
+      "/posts/the-pigeon-banana-problem/index.html",
       "/posts/welcome/index.html"
     ]
   }

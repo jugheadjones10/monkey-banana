@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>monkey-banana-project-quarto</title>
+<title>The Monkey Banana Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -139,7 +139,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">monkey-banana-project-quarto</span>
+    <span class="navbar-title">The Monkey Banana Project</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -170,28 +170,12 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">monkey-banana-project-quarto</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(2)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="paper summary">paper summary <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -202,49 +186,163 @@ window.Quarto = {
 
 
 
-
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1715270400000" data-listing-file-modified-sort="1715335313034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1716825600000" data-listing-file-modified-sort="1716877116986" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
+<p><a href="./posts/monkey-banana-mdp/monkey-banana-mc.html" class="no-external"></a></p><a href="./posts/monkey-banana-mdp/monkey-banana-mc.html" class="no-external">
+<p class="card-img-top"><img src="posts/monkey-banana-mdp/on-policy-first-visit-algo.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/monkey-banana-mdp/monkey-banana-mc.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
+<a href="./posts/monkey-banana-mdp/monkey-banana-mc.html" class="no-external">Solving the monkey banana problem with monte carlo methods</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/post-with-code/index.html" class="no-external">This is a post with executable code.</a>
+<a href="./posts/monkey-banana-mdp/monkey-banana-mc.html" class="no-external"></a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
+<a href="./posts/monkey-banana-mdp/monkey-banana-mc.html" class="no-external">
 <div class="listing-date">
-May 10, 2024
-</div>
-<div class="listing-author">
-Harlow Malloc
+May 28, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1715011200000" data-listing-file-modified-sort="1715335313033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="quarto-post image-right" data-index="1" data-categories="code" data-listing-date-sort="1716739200000" data-listing-file-modified-sort="1716876941478" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
+<div class="thumbnail">
+<p><a href="./posts/monkey-banana-mdp/monkey-banana-mc-code.html" class="no-external"></a></p><a href="./posts/monkey-banana-mdp/monkey-banana-mc-code.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/monkey-banana-mdp/monkey-banana-mc-code.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/monkey-banana-mdp/monkey-banana-mc-code.html" class="no-external">Solving the monkey banana problem with monte carlo methods</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/monkey-banana-mdp/monkey-banana-mc-code.html" class="no-external">Monte carlo code for the Monkey Banana problem</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/monkey-banana-mdp/monkey-banana-mc-code.html" class="no-external">
+<div class="listing-date">
+May 27, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="code" data-listing-date-sort="1716566400000" data-listing-file-modified-sort="1716782389711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+<div class="thumbnail">
+<p><a href="./posts/monkey-banana-mdp/monkey-banana-dp-code.html" class="no-external"></a></p><a href="./posts/monkey-banana-mdp/monkey-banana-dp-code.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/monkey-banana-mdp/monkey-banana-dp-code.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/monkey-banana-mdp/monkey-banana-dp-code.html" class="no-external">Solving the monkey banana problem with dynamic programming</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/monkey-banana-mdp/monkey-banana-dp-code.html" class="no-external">Dynamic programming code for the Monkey Banana problem</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/monkey-banana-mdp/monkey-banana-dp-code.html" class="no-external">
+<div class="listing-date">
+May 25, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1716566400000" data-listing-file-modified-sort="1716781428019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+<div class="thumbnail">
+<p><a href="./posts/monkey-banana-mdp/monkey-banana-dp.html" class="no-external"></a></p><a href="./posts/monkey-banana-mdp/monkey-banana-dp.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/monkey-banana-mdp/monkey-banana-dp.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/monkey-banana-mdp/monkey-banana-dp.html" class="no-external">Solving the monkey banana problem with dynamic programming</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/monkey-banana-mdp/monkey-banana-dp.html" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/monkey-banana-mdp/monkey-banana-dp.html" class="no-external">
+<div class="listing-date">
+May 25, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="paper summary" data-listing-date-sort="1716134400000" data-listing-file-modified-sort="1716208561089" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/building-machines-that-learn-and-think-like-people.html" class="no-external"></a></p><a href="./posts/building-machines-that-learn-and-think-like-people.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/building-machines-that-learn-and-think-like-people.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/building-machines-that-learn-and-think-like-people.html" class="no-external">Building Machines that Learn and Think Like People</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/building-machines-that-learn-and-think-like-people.html" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/building-machines-that-learn-and-think-like-people.html" class="no-external">
+<div class="listing-date">
+May 20, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="paper summary" data-listing-date-sort="1715270400000" data-listing-file-modified-sort="1715409927946" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="thumbnail">
+<p><a href="./posts/the-pigeon-banana-problem/index.html" class="no-external"></a></p><a href="./posts/the-pigeon-banana-problem/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/the-pigeon-banana-problem/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/the-pigeon-banana-problem/index.html" class="no-external">‘Insight’ in the pigeon: antecedents and determinants of an intelligent performance</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/the-pigeon-banana-problem/index.html" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/the-pigeon-banana-problem/index.html" class="no-external">
+<div class="listing-date">
+May 10, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="news" data-listing-date-sort="1715011200000" data-listing-file-modified-sort="1715335313033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <div class="thumbnail">
 <p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
 <p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
@@ -257,22 +355,11 @@ Harlow Malloc
 <div class="listing-subtitle">
 <a href="./posts/welcome/index.html" class="no-external"></a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
-</div>
 </div>
 <div class="metadata">
 <a href="./posts/welcome/index.html" class="no-external">
 <div class="listing-date">
 May 7, 2024
-</div>
-<div class="listing-author">
-Tristan O’Malley
 </div>
 </a>
 </div>
